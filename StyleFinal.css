@@ -1,0 +1,201 @@
+	/* CSS Syntax down below and such */ 
+        h1 {
+		color: lightgreen;
+		font-size: 50pt;
+		}
+				body {
+						background-image: url('Images/sky.png');
+				}
+				
+				.top_header { 
+					width: 49%;
+					font-size: 72px;
+					color: black;
+					/* line width, line type, color */
+					border: 5px solid gray;
+					text-align: center;
+					margin: auto;
+					margin-bottom: 10px;
+					background-color: #FFFFFFAA;
+					
+				}
+					.top_header2 { 
+					width: 35%;
+					font-size: 72px;
+					color: black;
+					/* line width, line type, color */
+					border: 5px solid gray;
+					margin: auto;
+					margin-bottom: 10px;
+					text-align: center;
+					background-color: #FFFFFFAA;
+				
+			}
+			
+				.heavy_border {
+					/* line width, line type, color */
+					border: 5px dashed black;
+					margin: 25px;
+					background-color: white;
+			}
+			
+				
+			
+			
+				P {
+					color: #ECBD39; 
+					font-family: monospace;
+					font-size: 14px;
+					background-color: white;
+					margin: 5px;
+					border-radius: 15px 15px 15px 15px;
+					width: 500px;
+					margin: auto;
+					text-align: center;
+				}
+				
+				.flex_container {
+					display: flex;
+					background color: #CCCCCC;
+					direction: column;
+					background-color: #FFFFFFAA;
+					border : 5px solid black;
+					margin: 5px;
+					border-radius: 15px 15px 15px 15px;
+					width: 310px;
+					margin: auto;
+				}
+				
+				.flex_container div{
+					display: flex;
+					background: linear-gradient(white, silver);
+					padding: 5px;
+					margin: 5px;
+					Border: 1px solid black;
+					text-align: center;
+					
+				}
+				
+				.flex_container3 {
+					display: flex;
+					background color: #CCCCCC;
+					direction: column;
+					background-color: white;
+					border : 5px solid black;
+					text-align: center;
+					border-radius: 15px 15px 15px 15px;
+					width: 550px;
+					margin: auto;
+					margin-top: 10px;
+					margin-bottom: 10px;
+				
+				}
+				.flex_container div:hover{
+					display: flex;
+					background: linear-gradient(gray, black);
+					padding: 5px;
+					margin: 5px;
+					text-align: center;
+					Border: 1px solid black;
+
+				}
+				
+				.list {
+				margin: auto;
+				
+				}
+				
+				.Underwriter {
+				width: 350px;
+				margin-left: 445px;
+				
+				}
+				
+				
+				.rectangle {
+				height: 50px;
+				width: 100px;
+				background-color: #555;
+				}
+				
+				.table_div {
+				align: center;
+				width: 300px;
+				margin-left: auto;
+				margin-right: auto;
+				}
+				
+				table { 
+					color: #000000;
+					border: 2px solid #000000;
+					padding: 5px;
+				}
+				
+				tr {
+					border: 2px solid #000000;
+					background-color: #CDCDCD;
+					padding: 5px;
+				}
+				
+				th { 
+					background-color: #999999;
+					
+				}
+					
+				.rounded {
+					border : 5px dashed orange;
+					margin: 5px;
+					border-radius: 15px 15px 15px 15px;
+					width: 300px;
+					
+				}
+				
+				.ball { 
+				background-color: crimson;
+				width: 100px;
+				height: 100px;
+				border-radius: 50%;
+				border: 5px solid black;
+				
+				}
+				
+				.bg_image {
+			background-image: url('Images/landscape_comp.jpeg');
+			width: 1080px;
+			
+			
+				}
+				
+				a { 
+				color: orange;
+				text-decoration: none;
+				text-shdow: 0px 0px black;
+				
+				}
+				
+				a:visited{
+						color: crimson;
+				}
+				
+				a:hover {
+					color: gold;
+					text-decoration: none;
+				}
+				a:focus {
+						color: black:
+				}
+				
+				a:active {
+						color: green;
+				}
+				
+				.flex_container4 {
+					display: flex;
+					background color: #CCCCCC;
+					direction: column;
+					background-color: white;
+					border : 5px solid black;
+					margin: 5px;
+					text-align: center;
+					width: 117px;
+					margin: auto;
