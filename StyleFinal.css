@@ -56,8 +56,7 @@
 				
 				.flex_container {
 					display: flex;
-					background color: #CCCCCC;
-					direction: column;
+					background-color: #CCCCCC;
 					background-color: #FFFFFFAA;
 					border : 5px solid black;
 					margin: 5px;
@@ -78,8 +77,7 @@
 				
 				.flex_container3 {
 					display: flex;
-					background color: #CCCCCC;
-					direction: column;
+					background-color: #CCCCCC;
 					background-color: white;
 					border : 5px solid black;
 					text-align: center;
@@ -119,7 +117,6 @@
 				}
 				
 				.table_div {
-				align: center;
 				width: 300px;
 				margin-left: auto;
 				margin-right: auto;
@@ -169,7 +166,7 @@
 				a { 
 				color: orange;
 				text-decoration: none;
-				text-shdow: 0px 0px black;
+				text-shadow: 0px 0px black;
 				
 				}
 				
@@ -182,7 +179,7 @@
 					text-decoration: none;
 				}
 				a:focus {
-						color: black:
+						color: black;
 				}
 				
 				a:active {
@@ -191,11 +188,62 @@
 				
 				.flex_container4 {
 					display: flex;
-					background color: #CCCCCC;
-					direction: column;
+					background-color: #CCCCCC;
 					background-color: white;
 					border : 5px solid black;
 					margin: 5px;
 					text-align: center;
 					width: 117px;
 					margin: auto;
+				}
+					
+					
+.hover-cell {
+    position: relative; 
+    cursor: pointer;
+}
+
+.hover-cell:hover{
+    content: url('Images/tempest_tracker.png');
+	width: 100px;
+
+}
+
+.hover-cell2 {
+    position: relative; 
+    cursor: pointer;
+}
+
+.hover-cell2:hover{
+    content: url('Images/crimson_splatter.png');
+	width: 100px;
+}
+
+.hover-cell3 {
+    position: relative; 
+    cursor: pointer;
+}
+
+.hover-cell3:hover{
+    content: url('Images/scarlet_burn.png');
+	width: 100px;
+
+.hover-cell4 {
+    position: relative; 
+    cursor: pointer;
+}
+
+.hover-cell4:hover{
+    content: url('Images/speed_strike.png');
+	width: 100px;
+}
+
+.hover-cell5 {
+    position: relative; 
+    cursor: pointer;
+}
+
+.hover-cell5:hover{
+    content: url('Images/aybyssal_arbiter.png');
+	width: 100px;
+}
